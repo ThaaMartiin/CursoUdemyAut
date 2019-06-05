@@ -16,5 +16,9 @@ Quando("interajo com dropdown e select") do
 end
   
 Quando("preencho o autocomplete") do
-    
+    visit '/widgets/autocomplete'
+
+    find("#autocomplete-input").set 'Rio de Ja'
+    find('ul', text: 'Rio de Janeiro').click
+    sleep(4)
 end
