@@ -3,8 +3,8 @@ class PrimeiroObject < SitePrism::Page
     #fazer os metodos
 
     #exemplos
-    @page = PrimeiroObject.new 
-    @page.elemento.click
-    @page.metodo
+    #@page = PrimeiroObject.new 
+    #@page.element.click
+    #@page.metodo
         
 end
